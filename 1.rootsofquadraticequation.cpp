@@ -7,7 +7,11 @@ int main()
     cout<<"\nEnter the coefficients of the quadratic equation: ";
     cin>>a>>b>>c;
     discriminant=(b*b)-(4*a*c);
-    if(discriminant>0)
+    if(a==0)
+    {
+        cout<<"\nInvalid inputs\n";
+    }
+    else if(discriminant>0)
     {
         x1=(-b+sqrt(discriminant))/(2*a);
         x2=(-b-sqrt(discriminant))/(2*a);
