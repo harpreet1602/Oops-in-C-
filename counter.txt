@@ -1,0 +1,3 @@
+Count the characters
+Count the words
+Count the sentences
